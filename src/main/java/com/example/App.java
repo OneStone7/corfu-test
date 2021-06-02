@@ -26,6 +26,7 @@ public class App {
             map.put(i, fourKB);
             int randomNum = ThreadLocalRandom.current().nextInt(0, i);
             map.get(randomNum);
+            System.out.println("put " + i);
         }
 
     }
